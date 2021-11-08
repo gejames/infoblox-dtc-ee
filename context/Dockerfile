@@ -29,4 +29,4 @@ COPY --from=galaxy /usr/share/ansible /usr/share/ansible
 COPY --from=builder /output/ /output/
 RUN /output/install-from-bindep && rm -rf /output/wheels
 RUN echo This is a post-install command!
-RUN ls -la /etcviking
+RUN ls -la /etc

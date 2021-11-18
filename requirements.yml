@@ -2,3 +2,4 @@
 collections:
   - infoblox.nios_modules
   - community.general
+  - servicenow.itsm
